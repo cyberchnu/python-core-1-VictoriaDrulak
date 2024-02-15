@@ -5,7 +5,7 @@ def fizz_buzz(param):
   elif param % 3 == 0:
     return "Fizz"
   elif param % 5 == 0:
-    return "Baz"
+    return "Buzz"
   else:
-    return str(param)
+    return param
 
