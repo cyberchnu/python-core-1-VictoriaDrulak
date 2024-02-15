@@ -1,11 +1,11 @@
-def fizz_buzz(param):
+def fizz_buzz(number):
   #Type your code here
-  if param % 3 == 0 and param % 5 == 0:
+  if number % 3 == 0 and number % 5 == 0:
     return "FizzBuzz"
-  elif param % 3 == 0:
+  elif number % 3 == 0:
     return "Fizz"
-  elif param % 5 == 0:
+  elif number % 5 == 0:
     return "Buzz"
   else:
-    return param
+    return str(number)
 
