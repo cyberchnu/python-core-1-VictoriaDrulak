@@ -1,7 +1,7 @@
 def calculate_fuel(distance):
   # Type your code
-  calculate_fuel = distance * 10
-if calculate_fuel < 100:
-  return 100
-else:
-  return calculate_fuel
+  fuel_needed = distance * 10
+  if fuel_needed < 0:
+    print(100)
+  else:
+    return fuel_needed
