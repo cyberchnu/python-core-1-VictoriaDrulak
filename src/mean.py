@@ -8,5 +8,6 @@ def mean(number):
       sum += n
       count += 1
       mean = sum / count
-  return mean(number)
+  return mean
+
 
